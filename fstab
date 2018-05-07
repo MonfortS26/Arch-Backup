@@ -1,0 +1,12 @@
+
+# /dev/mapper/root UUID=a5de87d0-00ec-4291-bc71-6cb4285fd03c
+/dev/mapper/root    	/         	ext4      	rw,relatime,data=ordered	0 1
+
+efivarfs            	/sys/firmware/efi/efivars	efivarfs  	rw,nosuid,nodev,noexec,relatime	0 0
+
+# /dev/sda1 UUID=571F-0EEB
+/dev/sda1           	/boot     	vfat      	rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=iso8859-1,shortname=mixed,errors=remount-ro	0 2
+
+/dev/mapper/tmp		/tmp		tmpfs		defaults		0	0
+/dev/mapper/swap	none		swap		sw			0	0
+/dev/mapper/home	/home		ext4		defaults		0	2
